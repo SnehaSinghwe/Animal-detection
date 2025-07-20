@@ -41,7 +41,7 @@ Evaluation Metric: Accuracy
 
 ## Getting Started
 1. Clone the Repository
-git clone https://github.com/yourusername/animal-detection.git
+git clone https://github.com/SnehaSinghwe/animal-detection.git
 cd animal-detection
 2. Create a Virtual Environment (Optional)
 python -m venv venv
@@ -59,23 +59,14 @@ Includes training/validation curves, confusion matrix, and visualized prediction
 ## Project Structure
 
 animal-detection/
-
 ├── dataset/
-
 │   ├── train/
-
 │   └── test/
-
 ├── models/
-
 │   └── animal_classifier.h5
-
 ├── images/
-
 │   └── sample_predictions/
-
 ├── requirements.txt
-
 └── README.md
 
 ## Future Enhancements
