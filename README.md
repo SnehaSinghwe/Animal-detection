@@ -59,14 +59,23 @@ Includes training/validation curves, confusion matrix, and visualized prediction
 ## Project Structure
 
 animal-detection/
+
 ├── dataset/
+
 │   ├── train/
+
 │   └── test/
+
 ├── models/
+
 │   └── animal_classifier.h5
+
 ├── images/
+
 │   └── sample_predictions/
+
 ├── requirements.txt
+
 └── README.md
 
 ## Future Enhancements
