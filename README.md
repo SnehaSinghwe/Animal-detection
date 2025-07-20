@@ -11,13 +11,21 @@ Cat, Dog, Elephant, Horse, Lion, Tiger, Bear, Zebra, Deer, Monkey, Giraffe, Cow,
 Image Shape: 224x224x3 (RGB)
 Dataset Format: Organized in ImageNet-style directory structure:
 dataset/
+
 ├── train/
+
 │   ├── Cat/
+
 │   ├── Dog/
+
 │   └── ...
+
 └── test/
+ 
     ├── Cat/
+    
     ├── Dog/
+    
     └── ...
 Dataset Source: Kaggle
 
@@ -50,14 +58,12 @@ venv\Scripts\activate     # For Windows
 pip install -r requirements.txt
 
 ## Model Performance
-
 Accuracy: ~91–94%
 Loss: Low and Stable
 Inference Time:  ~20–30ms per image (GPU)
 Includes training/validation curves, confusion matrix, and visualized predictions.
 
 ## Project Structure
-
 animal-detection/
 
 ├── dataset/
